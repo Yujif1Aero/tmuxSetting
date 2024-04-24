@@ -20,3 +20,7 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+..tmux.conf.~undo-tree~
+#tmux.conf#
+..gitignore.~undo-tree~
+.tmux.conf.~undo-tree~
