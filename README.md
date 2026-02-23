@@ -5,7 +5,8 @@ ref:https://nantonaku-shiawase.hatenablog.com/entry/2021/02/04/231415
 `ln -s ~/tmux.conf ~/.tmux.conf`
 # copy mode
 Ctrl+q [
-
+# reset memory
+`tmux unbind-key -n C-y`
 
 # tmux in vscode
 tmuxをvscodeで使うと文字がコピーができない現象に遭遇．ここで議論されてるけど根本的な解決策はなかった(https://github.com/microsoft/vscode/issues/209191)
