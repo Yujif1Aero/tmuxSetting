@@ -28,3 +28,11 @@ unbind-key C-c
 ```
 
 Not to conflinct in the local prefix, this setting is required.
+
+# useful command
+
+```bash
+tmux new -s work 
+C-prefix d でデタッチ
+tmux attach -t work
+```
