@@ -19,3 +19,12 @@ function share_history {
 PROMPT_COMMAND='share_history'
 shopt -s histappend
 ```
+
+# the deffirence between main and this branch
+```bash
+set -g prefix C-u
+bind-key C-u send-prefix
+unbind-key C-c
+```
+
+Not to conflinct in the local prefix, this setting is required.
