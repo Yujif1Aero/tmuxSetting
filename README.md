@@ -25,3 +25,7 @@ PROMPT_COMMAND='share_history'
 shopt -s histappend
 ```
 
+# For ubuntu user
+```
+apt install alacritty
+```
